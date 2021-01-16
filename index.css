@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	background-color: #000;
+	opacity: 0.9;
+}
+
+/*/     nvbar styling           /*/
+
+.navbar{ 
+	padding: 10px 0;
+	width: 100%;
+	position: fixed;
+	font-family: 'ubantu',sans-serif;
+	transition: all 0.4s ease;
+}
+.navbar.sticky{
+	padding: 5px 0;
+	background-color: #e6005c;
+}
+.navbar.sticky a:hover{
+	color: #000;
+}
+.navbar.sticky .menu li a:hover{
+	color: #000;
+}
+.max-width{
+	max-width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+	margin: auto;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar .logo span{
+	color: #000;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .menu{
+	display: visible;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.navbar .menu li a{
+	display: all;
+    color: #fff;
+    margin-left: 25px;
+    font-weight: 500px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+      /*/         menubar styling   /*/
+
+
+.menu-btn{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 8px;
+    display: none;
+}
+.navbar .menu li a:hover{
+	color: #e6005c;
+	transition: 0.4s;
+}
+
+       /*/     home contenet styling            /*/
+
+
+.home{
+	display: flex;
+	background: url(pc.jpg)no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	min-height: 500px;
+	font-family: 'ubantu',sans-serif;
+}
+.home .max-width{
+	margin-left: 40px;
+	padding-top: 30px;
+}
+.home .max-width .home-content .text-1{
+	color: #e6005c;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.home .max-width .home-content .text-2{
+	font-size: 35px;
+	padding: 2px 0 2px 15px;
+	margin: 2px 0 2px 0;
+}
+.home .max-width .home-content .text-3{
+	color: #e6005c;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+.home .max-width .home-content a{
+	font-size: 18px;
+	color: #fff;
+	background-color: #000;
+	padding: 8px 10px;
+	font-weight: 550px;
+	border: 1px solid #e6005c;
+}
+.home .max-width .home-content a:hover{
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #000;
+	transition: 0.3s;
+}
+
+           /*/   about styling    /*/
+
+.about{
+	align-items: center;
+}
+.para-info h2{
+	color: ;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+.para-info{
+    color: #fff;
+    object-fit: fill;
+    justify-content: center;
+    min-height: 300px;
+}
+.para-info p{
+	text-align: center;
+    margin: 0 50px 0 20px;
+}
+.para-info img{
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 40px;
+	min-width: 350px;
+	height: 200px;
+}
+            /*/        SERVICES SECTION starts              /*/
+
+.service{
+	margin-top: 20px;
+	background-color: #ddd;
+}
+.service h2{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.services{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
+}
+.service .serv{
+	max-width: 350px;
+	object-fit: fill;
+	background-color: #001a33;
+	padding: 5px;
+	margin-right: 30px;
+	margin-top: 30px;
+	padding: 20px;
+	color: #eee;
+	font-size: 18px;
+}
+.service .serv:hover{
+    color: ;
+    background-color: ;
+}
+.service .serv i{
+	margin-left: 42%;
+	font-size: 40px;
+	color: #fff;
+}
+.service .serv h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+        /*/       plans section starts                /*/
+.plan-heading{
+	justify-content: center;
+}
+.plan-heading h2{
+	color: #fff;
+     text-align: center;
+}
+.plan-heading p{
+	text-align: center;
+	color: #fff;
+	margin: 0px 20px 5px 20px;
+}
+.plans{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100px;
+	background-color: #ddd;
+}
+.plans .plan1{
+	background-color: #fff;
+	border-color: gray;
+	margin: 20px 10px 20px 20px;
+	width: 300px;
+	text-align: left;
+	padding-left: 20PX;
+	padding-right: 20px;
+	box-shadow: 8px 8px 10px #000;
+	height: auto;
+	font-size: 20px;
+}
+.plans .plan1 hr{
+	margin-bottom: 15px;
+}
+.plans .plan1 button{
+	text-align: center;
+	margin-bottom: 20px;
+	padding :5px 20px 5px 20px;
+	margin-left:50px;
+	cursor: pointer; 
+}
+.plans .plan1 button:hover,.plans.plan2 button:hover,.plans.plan3 button:hover,.plans.plan4 button:hover{
+	background-color: #000;
+	color: #fff;
+	outline: 1px solid #fff;
+}
+.plans .plan1 h3{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: green;
+}
+.plans .plan1 h2{
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.plans .plan1:hover, .plans.plan2:hover,.plans.plan3:hover, .plans.plan4:hover{
+    background: linear-gradient(#e62e00,#ff5c33);
+    cursor: pointer;
+}
+
+
+.plans .plan2{
+	background-color: #fff;
+	border-color: gray;
+	margin: 20px 10px 20px 20px;
+	width: 300px;
+	text-align: left;
+	padding-left: 20PX;
+	padding-right: 20px;
+	box-shadow: 8px 8px 10px #000;
+	height: auto;
+	font-size: 20px;
+}
+.plans .plan2 hr{
+	margin-bottom: 15px;
+}
+.plans .plan2 button{
+	text-align: center;
+	margin-bottom: 20px;
+	padding :5px 20px 5px 20px;
+	margin-left:50px;
+	cursor: pointer; 
+}
+.plans .plan2 h3{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: green;
+}
+.plans .plan2 h2{
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.plans .plan3{
+	background-color: #fff;
+	border-color: gray;
+	margin: 20px 10px 20px 20px;
+	width: 300px;
+	text-align: left;
+	padding-left: 20PX;
+	padding-right: 20px;
+	box-shadow: 8px 8px 10px #000;
+	height: auto;
+	font-size: 20px;
+}
+.plans .plan3 hr{
+	margin-bottom: 15px;
+}
+.plans .plan3 button{
+	text-align: center;
+	margin-bottom: 20px;
+	padding :5px 20px 5px 20px;
+	margin-left:50px;
+	cursor: pointer; 
+}
+.plans .plan3 h3{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: green;
+}
+.plans .plan3 h2{
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.plans .plan4{
+	background-color: #fff;
+	border-color: gray;
+	margin: 20px 10px 20px 20px;
+	width: 300px;
+	text-align: left;
+	padding-left: 20PX;
+	padding-right: 20px;
+	box-shadow: 8px 8px 10px #000;
+	height: auto;
+	font-size: 20px;
+}
+.plans .plan4 hr{
+	margin-bottom: 15px;
+}
+.plans .plan4 button{
+	text-align: center;
+	margin-bottom: 20px;
+	padding :5px 20px 5px 20px;
+	margin-left:50px;
+	cursor: pointer; 
+}
+.plans .plan4 h3{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: green;
+}
+.plans .plan4 h2{
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+
+         /*/        Skills SECTION starts              /*/
+
+.skills{
+	background-color: #fff;
+	
+}
+.skills .sub-skills{
+	padding-bottom: 30px;
+}
+.skills .sub-skills h2{
+	text-align: center;
+	padding: 20px;
+}
+.skills .sub-skills h2 span{
+	margin-left: 5px;
+	color: #e6005c;
+}
+.skills .sub-skills ul li a{
+    color: #001a33;
+    font-weight: 550;
+}
+.skills .sub-skills ul{
+	margin-left: 20%;
+}
+.skills .sub-skills ul li{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #e6005c;
+	font-weight: 800;
+	list-style: none;
+}
+.skills .sub-skills ul li p{
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.skills .sub-skills ul li p span{
+	color: #001a33;
+	font-size: 18px;
+	letter-spacing: normal;
+}
+.skills .sub-skills ul li a{
+	margin-right: 10px;
+}
+
+         /*/        team section starts              /*/
+.team h2{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    background-color: #001a33;
+}
+.team .team-members{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+    color: #fff;
+    margin-left: -22%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.team .team-members div{
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.team .team-members h3{
+    color: #e6005c;
+}
+.team .team-members img{
+	width: 200px;
+	height: 160px;
+	border-radius: 50%;
+}
+.contact{
+	background-color: #fff;
+	padding-top: 20px;
+}
+.contact div{
+    justify-content: center;
+    text-align: center;
+}
+.contact h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact form{
+	text-align: center;
+    padding-bottom: 30px;
+}
+.contact form input[type=text]{
+	padding: 8px 20px 8px 70px;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #e6005c;
+	margin-bottom: 20px;
+	width: 300px;
+}
+.contact form input[type=email]{
+	padding: 8px 20px 8px 70px;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #e6005c;
+	margin-bottom: 20px;
+	width: 300px;
+}
+.contact form input[type=no]{
+	padding: 8px 20px 8px 70px;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #e6005c;
+	margin-bottom: 20px;
+	width: 300px;
+}
+.contact form input[type=text-box]{
+	padding: 20px 30px 50px 20px;
+	min-width: 200px;
+	height: 60px;
+	border: 3px solid #e6005c;
+	margin-left: 3%;
+}
+.contact form input[type=submit]{
+	cursor: pointer;
+	margin-left: 10px;
+	padding: 5px 8px 5px 8px;
+	background-color: #e6005c;
+	font-size: 20px; 
+	border-radius: 5px;
+	outline: none;
+}
+.contact p{
+	margin-top: 10px;
+	color: #262626;
+
+}
+.footer{
+	color: white;
+}
+.footer .footer-address{
+	background-color: #001a33;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px 20px 10px 20px;
+}
+.footer .footer-links{
+	opacity: 0.9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.footer .footer-links a{
+	margin: 10px 20px 5px 20px;
+	padding-top: 10px;
+	cursor: pointer;
+	word-spacing: 2px;
+	font-size: 16px;
+}
+.footer .footer-links a:hover{
+	color: #e6005c;
+}
+
+
+
+    /*/        responsive media query starts              /*/
+
+@media (max-width: 678px){
+
+.service .serv i{
+	font-size: 30px;
+}
+.service .serv h3{
+	text-align: center;
+}
+
+.skills .sub-skills ul{
+	margin-left: 13%;
+  } 
+}
+
+@media (min-width: 991px){
+	.navbar .menu{
+		display: block;
+	}
+}
+
+
+@media (max-width: 991px){
+	.max-width{
+		padding: 0px 50px;
+	}
+	.menu-btn{
+    display: block;
+}
+	.navbar .menu{
+		transition: all 0.4s ease;
+		margin-left: 70%;
+		left: 0;
+		top: 50px;
+		position: fixed;
+		min-height: 450px;
+		width: 100%;
+		background-color: #111;
+		display: none;
+
+	}
+	.navbar .menu .active{
+		left: 0;
+		background-color: #e6005c;
+		padding: 5px;
+	}
+
+	.navbar .menu li{
+		margin-top: 40px;
+		display: block;
+	}
+	.navbar .menu li a{
+		display: block;
+		color: #fff;
+		margin: 15px;
+	}
+	.navbar .menu li a:hover{
+	    background-color: #002233;
+		padding: 5px;
+		color: white;
+	}
+}
