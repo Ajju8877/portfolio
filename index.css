@@ -496,7 +496,9 @@ body{
 
 }
 .field{
-       margin-left: 40%;
+       display: flex;
+       flex: 1;
+       justify-content: center;
        padding: 20px 0 20px 0;
 }
 
