@@ -438,7 +438,7 @@ body{
 	background-color: #fff;
 	padding-top: 20px;
 }
-.contact div{
+.contact .form-cover{
     justify-content: center;
     text-align: center;
 }
