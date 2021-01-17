@@ -496,7 +496,8 @@ body{
 
 }
 .field{
-       margin-left:50%;
+       margin-left:42%;
+       padding: 10px 0 10px 0;
 }
 
 .footer{
