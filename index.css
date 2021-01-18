@@ -126,6 +126,7 @@ body{
 }
 
            /*/   about styling    /*/
+
 .about{
 	display: flex;
 	flex: 1;
@@ -151,8 +152,8 @@ body{
 	width: 40vw;
 	height: 200px;
 }
-
             /*/        SERVICES SECTION starts              /*/
+
 .service{
 	margin-top: 20px;
 	background-color: #ddd;
@@ -195,7 +196,6 @@ body{
 	margin-bottom: 20px;
 	text-align: center;
 }
-
 
         /*/       plans section starts                /*/
 .plan-heading{
@@ -255,7 +255,19 @@ body{
 	text-align: center;
 }
 
-.plans .plan1:hover, .plans.plan2:hover,.plans.plan3:hover, .plans.plan4:hover{
+.plans .plan1:hover{
+    background: linear-gradient(#e62e00,#ff5c33);
+    cursor: pointer;
+}
+.plans .plan2:hover{
+    background: linear-gradient(#e62e00,#ff5c33);
+    cursor: pointer;
+}
+.plans .plan3:hover{
+    background: linear-gradient(#e62e00,#ff5c33);
+    cursor: pointer;
+}
+.plans .plan4:hover{
     background: linear-gradient(#e62e00,#ff5c33);
     cursor: pointer;
 }
@@ -439,7 +451,7 @@ body{
 	background-color: #fff;
 	padding-top: 20px;
 }
-.contact .form-cover{
+.contact div{
     justify-content: center;
     text-align: center;
 }
@@ -496,13 +508,6 @@ body{
 	color: #262626;
 
 }
-.field{
-       display: flex;
-       flex: 1;
-       justify-content: center;
-       padding: 20px 0 20px 0;
-}
-
 .footer{
 	color: white;
 }
@@ -536,7 +541,12 @@ body{
     /*/        responsive media query starts              /*/
 
 @media (max-width: 678px){
+.services{
+	display: flex;
+	flex: 1;
+	justify-content: center;
 
+}
 .service .serv i{
 	font-size: 30px;
 }
