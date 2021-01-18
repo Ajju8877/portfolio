@@ -508,6 +508,11 @@ body{
 	color: #262626;
 
 }
+.field{
+ display: flex;
+ flex:1;
+ justify-content: center;
+}
 .footer{
 	color: white;
 }
